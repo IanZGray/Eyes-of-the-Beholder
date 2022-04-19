@@ -181,3 +181,18 @@ body {
   width: 100px; */
   position: relative;
 }
+
+
+.button {
+  border-radius: .5vw;
+  border-color: brown;
+  background-color: maroon;
+  color: white;
+  font-weight: bold;
+  font-size: 1vw;
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
+  width: 8vw;
+  height: 4vh;
+}
