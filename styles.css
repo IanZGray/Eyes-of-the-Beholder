@@ -173,7 +173,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  top: -50.2vw; 
+  margin-top:-50.2vw; 
   /* height: 100%; */
   width: 65vw;
   z-index: 2; 
@@ -183,7 +183,7 @@ body {
 }
 
 
-.button {
+.button-old {
   border-radius: .5vw;
   border-color: brown;
   background-color: maroon;
@@ -196,4 +196,27 @@ body {
   width: 8vw;
   height: 4vh;
   box-shadow: .3vw .3vw .4vw rgba(0, 0, 0, .75);
+}
+
+.button {
+  border-radius: .5vw;
+  background-color: rgb(41, 3, 41);
+  color: white;
+  font-weight: bold;
+  font-family: bodoni;
+  font-size: 1.5vw;
+  position: relative;
+  left: 2vw;
+  top: 1vw;
+  width: 12vw;
+  height: 4vw;
+  box-shadow: -.3vw .3vw .4vw rgba(0, 0, 0, .75), 0vw 0vw .5vw .1vw white inset;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  /* background-color: rgb(41, 3, 41); */
+  background-color: rgba(0, 0, 0, 0);
+  /* color: rgb(41, 3, 41); */
+  /* color: white; */
 }
