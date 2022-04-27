@@ -6,7 +6,7 @@
 
 ### Description
 
-This page showcases mouse movement tracking. The eyes follow the moveent of the mouse. 
+This page showcases mouse movement tracking. The eyes follow the moveent of the mouse. It's inspired by a monster from the table top game Dungeons & Dragons called the Beholder. 
 
 ### How to Run
 
